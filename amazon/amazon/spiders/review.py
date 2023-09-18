@@ -67,8 +67,7 @@ class ReviewSpider(scrapy.Spider):
 
             yield review_info.load_item()
 
-        # next_page = response.xpath("//li[contains(@class, a-last)]/a/@href").get()
-        # print('Parsing Page 2', next_page)
+        # next_page = response.xpath("//li[contains(@class, a-last)]/a/@href").get()        
         # if next_page:
         #     url = 'https://www.amazon.com' + next_page
         #     yield SplashRequest(url=url, callback=self.parse_reviews,  meta={"asin_code": asin_code})
