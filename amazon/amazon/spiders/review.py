@@ -7,8 +7,8 @@ from scrapy_splash import SplashRequest
 
 from amazon.itemloaders import ReviewLoader
 from amazon.items import ReviewItem
-from amazon.user_agent_and_proxy_lists import proxies_list, user_agent_list
 
+# add your queries here
 queries = ["skin care"]
 
 
