@@ -4,7 +4,7 @@
 
 ## Description
 
-This spider will crawl amazon.com and gather review data from all products in a query list.
+This spider will crawl amazon.com and gather review data from all products in a query list to a SQL database.
 
 ## Requirements
 
