@@ -6,11 +6,7 @@ from sqlalchemy.ext.declarative import declarative_base
 Base = declarative_base()
 
 
-def db_connect():
-    """
-    Performs database connection using database settings from settings.py.
-    Returns sqlalchemy engine instance
-    """
+def db_connect():   
     return create_engine(get_project_settings().get("CONNECTION_STRING"))
 
 

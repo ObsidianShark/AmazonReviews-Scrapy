@@ -8,8 +8,8 @@ from scrapy_splash import SplashRequest
 from amazon.itemloaders import ReviewLoader
 from amazon.items import ReviewItem
 
-
-queries = ["ADD_YOUR_QUERIES_HERE"]
+# add your queries bellow
+queries = ["skin care",]
 
 
 class ReviewSpider(scrapy.Spider):
